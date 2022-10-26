@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Scoreboard() {
+function Scoreboard(props) {
   return (
-    <div>Scoreboard</div>
+    <div>{props.currentscore}</div>
   )
 }
 

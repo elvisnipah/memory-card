@@ -9,6 +9,7 @@ import {
   Salad,
   Steak
 } from "./images/index"
+
 import {nanoid} from "nanoid"
 
 const data = [
