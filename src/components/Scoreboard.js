@@ -2,7 +2,10 @@ import React from 'react'
 
 function Scoreboard(props) {
   return (
-    <div>{props.currentscore}</div>
+    <div className='scoreboard'>
+      <p>Current Score: {props.currentscore}</p>
+      <p>Highest Score: {props.highestscore}</p>
+    </div>
   )
 }
 

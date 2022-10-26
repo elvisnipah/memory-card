@@ -4,18 +4,29 @@ import './App.css';
 import Card from './components/Card';
 import Scoreboard from './components/Scoreboard';
 import data from "./data.js"
-
+import arrayShuffle from "array-shuffle"
 function App() {
 
   const [gameData, setGameData] = useState(data)
   const [currentScore, setCurrentScore] = useState(0)
-  const [highestSore, setHighestScore] = useState(0)
+  const [highestScore, setHighestScore] = useState(0)
+
+  function shuffleCards(){
+    setGameData(prevGameData => arrayShuffle(prevGameData))
+  }
 
   function addToScore(event, cardID) {
     event.stopPropagation()
     for (let i = 0; i < gameData.length; i++) {
       if (gameData[i].id === cardID && gameData[i].clicked) {
         console.log("You've already clicked this.")
+        
+        if (currentScore > highestScore) {
+          setHighestScore(currentScore)
+        }
+        setCurrentScore(0)
+        setGameData(data)
+        shuffleCards()
       } 
       else if (gameData[i].id === cardID && gameData[i].clicked === false) {
         setCurrentScore(prevScore => {
@@ -24,7 +35,7 @@ function App() {
         setGameData(prevGameData => {
           return prevGameData.map(prevCard => prevCard.id === cardID ? {...prevCard, clicked: true} : prevCard)
         })
-        console.log("You haven't clicked this")
+        shuffleCards()
       }
     } 
   }
@@ -44,11 +55,11 @@ function App() {
 
   return (
     <div className="App">
-      <div>
-        <Scoreboard
-          currentscore={currentScore} 
-        />
-      </div>
+      <div className='heading'>Get points by clicking on an image but don't click on it any more than once!</div>
+      <Scoreboard
+        currentscore={currentScore} 
+        highestscore={highestScore}
+      />
       <div className="container">
         {cards}
       </div>
