@@ -1,72 +1,196 @@
 import {
-  Brownie,
-  Burger,
-  Burrito,
-  Pancake,
-  Pizza,
-  Ramen,
-  Rice,
-  Salad,
-  Steak
-} from "./images/index"
-
-import {nanoid} from "nanoid"
+  Anderson,
+  Ari,
+  Ashley,
+  Chakwas,
+  Cop,
+  Diana,
+  EDI,
+  Eve,
+  Garrus,
+  Grunt,
+  Hackett,
+  Harkin,
+  Jack,
+  Jacob,
+  James,
+  Joker,
+  Kaidan,
+  Kelly,
+  Liara,
+  Miranda,
+  Mordin,
+  Morinth,
+  Samantha,
+  Shepard,
+  Tali,
+  Thane,
+  Udina,
+} from "./images/index";
 
 const data = [
   {
-    name: "Brownie",
-    src: Brownie,
+    name: "Anderson",
+    src: Anderson,
     clicked: false,
-    id: nanoid()
+    id: 1,
   },
   {
-    name: "Burger",
-    src: Burger,
+    name: "Ari",
+    src: Ari,
     clicked: false,
-    id: nanoid()
+    id: 2,
   },
   {
-    name: "Burrito",
-    src: Burrito,
+    name: "Ashley",
+    src: Ashley,
     clicked: false,
-    id: nanoid()
+    id: 3,
   },
   {
-    name: "Pancake",
-    src: Pancake,
+    name: "Chakwas",
+    src: Chakwas,
     clicked: false,
-    id: nanoid()
+    id: 4,
   },
   {
-    name: "Pizza",
-    src: Pizza,
+    name: "Cop",
+    src: Cop,
     clicked: false,
-    id: nanoid()
+    id: 5,
   },
   {
-    name: "Ramen",
-    src: Ramen,
+    name: "Diana",
+    src: Diana,
     clicked: false,
-    id: nanoid()
+    id: 6,
   },
   {
-    name: "Rice",
-    src: Rice,
+    name: "EDI",
+    src: EDI,
     clicked: false,
-    id: nanoid()
+    id: 7,
   },
   {
-    name: "Salad",
-    src: Salad,
+    name: "Eve",
+    src: Eve,
     clicked: false,
-    id: nanoid()
+    id: 8,
   },
-  // {
-  //   name: "Steak",
-  //   src: Steak,
-  //   clicked: false,
-  //   id: nanoid()
-  // }
-]
+  {
+    name: "Garrus",
+    src: Garrus,
+    clicked: false,
+    id: 9,
+  },
+  {
+    name: "Grunt",
+    src: Grunt,
+    clicked: false,
+    id: 10,
+  },
+  {
+    name: "Hackett",
+    src: Hackett,
+    clicked: false,
+    id: 11,
+  },
+  {
+    name: "Harkin",
+    src: Harkin,
+    clicked: false,
+    id: 12,
+  },
+  {
+    name: "Jack",
+    src: Jack,
+    clicked: false,
+    id: 13,
+  },
+  {
+    name: "Jacob",
+    src: Jacob,
+    clicked: false,
+    id: 14,
+  },
+  {
+    name: "James",
+    src: James,
+    clicked: false,
+    id: 15,
+  },
+  {
+    name: "Joker",
+    src: Joker,
+    clicked: false,
+    id: 16,
+  },
+  {
+    name: "Kaidan",
+    src: Kaidan,
+    clicked: false,
+    id: 17,
+  },
+  {
+    name: "Kelly",
+    src: Kelly,
+    clicked: false,
+    id: 18,
+  },
+  {
+    name: "Liara",
+    src: Liara,
+    clicked: false,
+    id: 19,
+  },
+  {
+    name: "Miranda",
+    src: Miranda,
+    clicked: false,
+    id: 20,
+  },
+  {
+    name: "Mordin",
+    src: Mordin,
+    clicked: false,
+    id: 21,
+  },
+  {
+    name: "Morinth",
+    src: Morinth,
+    clicked: false,
+    id: 22,
+  },
+  {
+    name: "Samantha",
+    src: Samantha,
+    clicked: false,
+    id: 23,
+  },
+  {
+    name: "Shepard",
+    src: Shepard,
+    clicked: false,
+    id: 24,
+  },
+  {
+    name: "Tali",
+    src: Tali,
+    clicked: false,
+    id: 25,
+  },
+  {
+    name: "Thane",
+    src: Thane,
+    clicked: false,
+    id: 26,
+  },
+  {
+    name: "Udina",
+    src: Udina,
+    clicked: false,
+    id: 27,
+  },
+];
 
-export default data
+export default data;

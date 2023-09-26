@@ -1,22 +1,57 @@
-import Brownie from "./brownie.jpg"
-import Burger from "./burger.jpg"
-import Burrito from "./burrito.jpg"
-import Pancake from "./pancake.jpg"
-import Pizza from "./pizza.jpg"
-import Ramen from "./ramen.jpg"
-import Rice from "./rice.jpg"
-import Salad from "./salad.jpg"
-import Steak from "./steak.jpg"
+import Anderson from "./anderson.jpg";
+import Ari from "./ari.jpg";
+import Ashley from "./ashley.jpg";
+import Chakwas from "./chakwas.png";
+import Cop from "./cop-guy.jpg";
+import Diana from "./diana-allers.jpg";
+import EDI from "./edi.png";
+import Eve from "./eve.png";
+import Garrus from "./garrus.png";
+import Grunt from "./grunt.png";
+import Hackett from "./hackett.png";
+import Harkin from "./harkin.png";
+import Jack from "./jack.png";
+import Jacob from "./jacob.jpg";
+import James from "./james.png";
+import Joker from "./joker.jpg";
+import Kaidan from "./kaidan.jpg";
+import Kelly from "./kelly.png";
+import Liara from "./liara.jpg";
+import Miranda from "./miranda.jpg";
+import Mordin from "./mordin.png";
+import Morinth from "./morinth.jpg";
+import Samantha from "./samantha.jpg";
+import Shepard from "./shepard.jpg";
+import Tali from "./tali.jpg";
+import Thane from "./thane-krios.jpg";
+import Udina from "./udina.jpg";
 
 export {
-  Brownie,
-  Burger,
-  Burrito,
-  Pancake,
-  Pizza,
-  Ramen,
-  Rice,
-  Salad,
-  Steak
-}
-
+  Anderson,
+  Ari,
+  Ashley,
+  Chakwas,
+  Cop,
+  Diana,
+  EDI,
+  Eve,
+  Garrus,
+  Grunt,
+  Hackett,
+  Harkin,
+  Jack,
+  Jacob,
+  James,
+  Joker,
+  Kaidan,
+  Kelly,
+  Liara,
+  Miranda,
+  Mordin,
+  Morinth,
+  Samantha,
+  Shepard,
+  Tali,
+  Thane,
+  Udina,
+};
